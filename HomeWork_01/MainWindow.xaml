@@ -1,0 +1,80 @@
+﻿<Window x:Class="HomeWork_01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork_01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000" MinWidth="1000" MinHeight="600" MaxWidth="1000" MaxHeight="600">
+    <Window.Resources>
+        <Thickness x:Key="paddingText">0</Thickness>
+    </Window.Resources>
+
+    <Grid Margin="0,0,0,9">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="splitBox"
+                 HorizontalAlignment="Left"
+                 Margin="10,250,0,10"
+                 Width="480">
+        </ListBox>
+        <Label Content="Список слов:" 
+               HorizontalAlignment="Left" 
+               VerticalAlignment="Top"
+               Margin="10,230,0,0"
+               Padding="{StaticResource paddingText}"
+               />
+        <Label Content="Текст для разбивки по словам:" 
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Margin="10,10,0,0"
+               Padding="{StaticResource paddingText}"
+               />
+        <TextBox x:Name="splitTextBox"
+                 Margin="10,30,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="480" Height="160"
+                 HorizontalAlignment="Left" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible"/>
+        <Label Content="Текст для инвертирования:" 
+               HorizontalAlignment="Left" 
+               VerticalAlignment="Top"
+               Margin="10,10,0,0"
+               Padding="{StaticResource paddingText}"
+               Grid.Column="1"/>
+        <TextBox x:Name="inverseText" 
+            Margin="10,30,0,0" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            HorizontalAlignment="Left" 
+            Width="480" 
+            Height="160" 
+            Grid.Column="1" VerticalScrollBarVisibility="Visible"/>
+        <Button Content="Разбить на слова" 
+                HorizontalAlignment="Center" 
+                Margin="0,196,0,0" 
+                VerticalAlignment="Top" 
+                Height="29"
+                Width="480" Click="Button_Click_1" FontSize="16"/>
+        <Button Content="Инвертировать текст" 
+                HorizontalAlignment="Center" 
+                Margin="0,196,0,0" 
+                VerticalAlignment="Top" 
+                Height="29" 
+                Width="480" Click="Button_Click" Grid.Column="1" FontSize="16"/>
+        <Label Content="Инвертированный текст:" 
+               HorizontalAlignment="Left" 
+               Margin="10,230,0,0"
+               Padding="{StaticResource paddingText}"
+               VerticalAlignment="Top" 
+               Grid.Column="1"/>
+        <Label  x:Name="invLabel"
+                Grid.Column="1" 
+                Content="" 
+                HorizontalAlignment="Center" 
+                Margin="0,250,0,0" 
+                VerticalAlignment="Top" Width="480" Height="315" ScrollViewer.CanContentScroll="True"/>
+    </Grid>
+</Window>

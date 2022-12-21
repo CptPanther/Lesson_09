@@ -1,0 +1,110 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MaterialSkin/0.2.1": {
+        "runtime": {
+          "lib/MaterialSkin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MaterialSkin.2/2.3.1": {
+        "runtime": {
+          "lib/net5.0-windows7.0/MaterialSkin.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
+        }
+      },
+      "MaterialSkin.Updated/0.2.2": {
+        "runtime": {
+          "lib/MaterialSkin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.3.0.61": {
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.3.0.61",
+            "fileVersion": "20.3.0.61"
+          }
+        }
+      },
+      "Syncfusion.SfSkinManager.WPF/20.3.0.61": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.61"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.SfSkinManager.WPF.dll": {
+            "assemblyVersion": "20.3500.0.61",
+            "fileVersion": "20.3500.0.61"
+          }
+        }
+      },
+      "Syncfusion.Themes.MaterialDark.WPF/20.3.0.61": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.61",
+          "Syncfusion.SfSkinManager.WPF": "20.3.0.61"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Themes.MaterialDark.WPF.dll": {
+            "assemblyVersion": "20.3500.0.61",
+            "fileVersion": "20.3500.0.61"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MaterialSkin/0.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/6AEh6qIeNKbxsha7IHBb5s50tyvB0iZuGQPB9mjyR+mRdfQ7vnKTklwI26Y/DbrymTcg+aBHSgCgAT7/qLIrQ==",
+      "path": "materialskin/0.2.1",
+      "hashPath": "materialskin.0.2.1.nupkg.sha512"
+    },
+    "MaterialSkin.2/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w2vFxLNk4InCDU7pXDfBqPfv55HhBtuu8HRfEqQpeS3sNTS1pUzDs/hS0b5JW2/tKvt+P1of9OINP8a9omWDBg==",
+      "path": "materialskin.2/2.3.1",
+      "hashPath": "materialskin.2.2.3.1.nupkg.sha512"
+    },
+    "MaterialSkin.Updated/0.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X4FGDVbHUb0h/gBTje6nPk3tYokwPqDA4+2PsMm28z736j/B2CNsLNeDOIzqqvdmCm6hfD5amFRQPf4HU9BmGQ==",
+      "path": "materialskin.updated/0.2.2",
+      "hashPath": "materialskin.updated.0.2.2.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.3.0.61": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s0RnBre4NXVKjsUOXIUx90NM+Mw6Exp3Y2MH81GvQBSW/8RSfwFKYzI20AjOXKXPicxn+n/WMlb/6VIiQj+qsQ==",
+      "path": "syncfusion.licensing/20.3.0.61",
+      "hashPath": "syncfusion.licensing.20.3.0.61.nupkg.sha512"
+    },
+    "Syncfusion.SfSkinManager.WPF/20.3.0.61": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oiUpZ6pyG1QjCduPMHpfNrwoBd9pJX6BTCf5fipsLRHPokmtAMb6sU2WojC28mfZldNgqDiovRdkIBJ+8Su8Tg==",
+      "path": "syncfusion.sfskinmanager.wpf/20.3.0.61",
+      "hashPath": "syncfusion.sfskinmanager.wpf.20.3.0.61.nupkg.sha512"
+    },
+    "Syncfusion.Themes.MaterialDark.WPF/20.3.0.61": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qBDjOfSoaJ/i2bMEVmd3Xe6NrhYBshAKzQG76P5X+csq+ZsGXr1f2eUlCMW3PYQdhkgF4C7TQ2H+045KhtATQA==",
+      "path": "syncfusion.themes.materialdark.wpf/20.3.0.61",
+      "hashPath": "syncfusion.themes.materialdark.wpf.20.3.0.61.nupkg.sha512"
+    }
+  }
+}

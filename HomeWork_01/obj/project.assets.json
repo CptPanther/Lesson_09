@@ -1,0 +1,315 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "MaterialSkin/0.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/MaterialSkin.dll": {}
+        },
+        "runtime": {
+          "lib/MaterialSkin.dll": {}
+        }
+      },
+      "MaterialSkin.2/2.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/MaterialSkin.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/MaterialSkin.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "MaterialSkin.Updated/0.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/MaterialSkin.dll": {}
+        },
+        "runtime": {
+          "lib/MaterialSkin.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/20.3.0.61": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfSkinManager.WPF/20.3.0.61": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.61"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/Syncfusion.SfSkinManager.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.SfSkinManager.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Themes.MaterialDark.WPF/20.3.0.61": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.61",
+          "Syncfusion.SfSkinManager.WPF": "20.3.0.61"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/Syncfusion.Themes.MaterialDark.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Themes.MaterialDark.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MaterialSkin/0.2.1": {
+      "sha512": "/6AEh6qIeNKbxsha7IHBb5s50tyvB0iZuGQPB9mjyR+mRdfQ7vnKTklwI26Y/DbrymTcg+aBHSgCgAT7/qLIrQ==",
+      "type": "package",
+      "path": "materialskin/0.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MaterialSkin.dll",
+        "materialskin.0.2.1.nupkg.sha512",
+        "materialskin.nuspec"
+      ]
+    },
+    "MaterialSkin.2/2.3.1": {
+      "sha512": "w2vFxLNk4InCDU7pXDfBqPfv55HhBtuu8HRfEqQpeS3sNTS1pUzDs/hS0b5JW2/tKvt+P1of9OINP8a9omWDBg==",
+      "type": "package",
+      "path": "materialskin.2/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net45/MaterialSkin.dll",
+        "lib/net461/MaterialSkin.dll",
+        "lib/net48/MaterialSkin.dll",
+        "lib/net5.0-windows7.0/MaterialSkin.dll",
+        "materialskin.2.2.3.1.nupkg.sha512",
+        "materialskin.2.nuspec",
+        "nugetIcon.png"
+      ]
+    },
+    "MaterialSkin.Updated/0.2.2": {
+      "sha512": "X4FGDVbHUb0h/gBTje6nPk3tYokwPqDA4+2PsMm28z736j/B2CNsLNeDOIzqqvdmCm6hfD5amFRQPf4HU9BmGQ==",
+      "type": "package",
+      "path": "materialskin.updated/0.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MaterialSkin.dll",
+        "materialskin.updated.0.2.2.nupkg.sha512",
+        "materialskin.updated.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/20.3.0.61": {
+      "sha512": "s0RnBre4NXVKjsUOXIUx90NM+Mw6Exp3Y2MH81GvQBSW/8RSfwFKYzI20AjOXKXPicxn+n/WMlb/6VIiQj+qsQ==",
+      "type": "package",
+      "path": "syncfusion.licensing/20.3.0.61",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net5.0/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.20.3.0.61.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.SfSkinManager.WPF/20.3.0.61": {
+      "sha512": "oiUpZ6pyG1QjCduPMHpfNrwoBd9pJX6BTCf5fipsLRHPokmtAMb6sU2WojC28mfZldNgqDiovRdkIBJ+8Su8Tg==",
+      "type": "package",
+      "path": "syncfusion.sfskinmanager.wpf/20.3.0.61",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net40/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/net45/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net45/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/net451/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net451/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/net46/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net46/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/net5.0-windows7.0/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net5.0-windows7.0/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.xml",
+        "syncfusion.sfskinmanager.wpf.20.3.0.61.nupkg.sha512",
+        "syncfusion.sfskinmanager.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Themes.MaterialDark.WPF/20.3.0.61": {
+      "sha512": "qBDjOfSoaJ/i2bMEVmd3Xe6NrhYBshAKzQG76P5X+csq+ZsGXr1f2eUlCMW3PYQdhkgF4C7TQ2H+045KhtATQA==",
+      "type": "package",
+      "path": "syncfusion.themes.materialdark.wpf/20.3.0.61",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Syncfusion.Themes.MaterialDark.WPF.dll",
+        "lib/net40/Syncfusion.Themes.MaterialDark.WPF.xml",
+        "lib/net45/Syncfusion.Themes.MaterialDark.WPF.dll",
+        "lib/net45/Syncfusion.Themes.MaterialDark.WPF.xml",
+        "lib/net451/Syncfusion.Themes.MaterialDark.WPF.dll",
+        "lib/net451/Syncfusion.Themes.MaterialDark.WPF.xml",
+        "lib/net46/Syncfusion.Themes.MaterialDark.WPF.dll",
+        "lib/net46/Syncfusion.Themes.MaterialDark.WPF.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Themes.MaterialDark.WPF.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Themes.MaterialDark.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.MaterialDark.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.MaterialDark.WPF.xml",
+        "syncfusion.themes.materialdark.wpf.20.3.0.61.nupkg.sha512",
+        "syncfusion.themes.materialdark.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "MaterialSkin >= 0.2.1",
+      "MaterialSkin.2 >= 2.3.1",
+      "MaterialSkin.Updated >= 0.2.2",
+      "Syncfusion.Themes.MaterialDark.WPF >= 20.3.0.61"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aser\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\aser\\Desktop\\SkillBox VR\\C#\\Lesson_09\\HomeWork_01\\HomeWork_01.csproj",
+      "projectName": "HomeWork_01",
+      "projectPath": "C:\\Users\\aser\\Desktop\\SkillBox VR\\C#\\Lesson_09\\HomeWork_01\\HomeWork_01.csproj",
+      "packagesPath": "C:\\Users\\aser\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aser\\Desktop\\SkillBox VR\\C#\\Lesson_09\\HomeWork_01\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "MaterialSkin": {
+            "target": "Package",
+            "version": "[0.2.1, )"
+          },
+          "MaterialSkin.2": {
+            "target": "Package",
+            "version": "[2.3.1, )"
+          },
+          "MaterialSkin.Updated": {
+            "target": "Package",
+            "version": "[0.2.2, )"
+          },
+          "Syncfusion.Themes.MaterialDark.WPF": {
+            "target": "Package",
+            "version": "[20.3.0.61, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"MaterialSkin 0.2.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "MaterialSkin",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"MaterialSkin.Updated 0.2.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "MaterialSkin.Updated",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
